@@ -1,0 +1,89 @@
+body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgba(200, 204, 208, 0.74);
+}
+.conteudo{
+display: flex;  
+flex-direction: column;  
+border: 2px solid rgb(112, 112, 112);
+min-width: 600px;
+min-height: 600px;
+max-height: auto;
+border-radius: 5%;
+background-color: aliceblue;
+}
+.title{
+font-size: 35px;
+margin-top: 2%;
+margin-left: 5%;
+margin-bottom: 1%;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+color: #454444;
+text-align: center;
+}
+.listacertificado{
+display: flex;
+flex-direction: column;
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: 5%;
+border: 1px solid black;
+max-height: 450px;
+border-radius: 2%;
+overflow-y: scroll;
+}
+
+.linhalista{
+display: flex;
+flex-direction: row;
+border: 2px solid rgba(55, 54, 54, 0.207);
+min-height:80px;
+border-radius: 4%;
+justify-content:space-around;
+align-items: center;
+margin-top: 0%; 
+}
+.desccertificado{
+font-size: 18px;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+}
+
+.button{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 15%;
+margin-right: 15%;
+}
+.btncadastrar{
+margin-left: 5%;
+box-shadow: 0px 0px 1px #888;
+border-radius: 5px;
+cursor: pointer;
+color: #fff;
+background: #242424;
+min-width: 100px;
+}
+.btnalterar{
+margin-left: 5%;
+box-shadow: 0px 0px 1px #888;
+border-radius: 5px;
+cursor: pointer;
+color: #fff;
+background: #242424;
+min-width: 100px;
+}
+.btnapagar{
+margin-left: 5%;
+box-shadow: 0px 0px 1px #888;
+border-radius: 5px;
+cursor: pointer;
+color: #fff;
+background: #242424;
+min-width: 100px;
+}
